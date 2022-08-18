@@ -11,6 +11,7 @@
 }
 
 thead th:nth-child(1),
+td:nth-child(1),
 thead th:nth-child(2),
 td:nth-child(2),
 thead th:nth-child(3),
@@ -19,12 +20,7 @@ td:nth-child(3) {
 }
 
 td:nth-child(1) {
-  padding: 0;
-  & a {
-    display: inline-block;
-    width: 100%;
-    padding: .7em;
-  }
+  cursor: pointer;
 }
 
 thead th:nth-child(1),
